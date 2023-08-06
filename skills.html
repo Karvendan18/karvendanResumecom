@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+          
+      body{
+        width:100%;
+        height:100%;
+        background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      }
+      .header{
+            position: relative;
+            top: 0px;
+            left: 0px;
+            text-align: center;
+            text-transform: uppercase;
+            color: blue;
+            font-size: 30px;
+            
+        }
+        .box {
+            margin-top: 0px;
+            display: flex;
+            flex-direction: row;
+            color: antiquewhite;
+            position:sticky;
+            top: 0px;
+            left: 0px;
+            margin-top: 0;
+            background-color:aqua;
+            
+        }
+        .box1{
+            padding:20px;
+            margin:10px;
+            font-size: 20px;
+            
+        }
+        .box1 a{
+            color:red;
+             }
+            a:hover{
+                color:yellow;
+            }
+            a:active{
+                color:orange;
+
+            }
+        .box2{
+          display: flex;
+          flex-direction: column;
+          align-items: left;
+
+        }
+        .box2{
+          margin-left: 20px;
+          text-align: left;
+        }
+        .box3{
+          margin-left: 20px;
+          padding:10px;
+        }
+        .box3 h1,h3,h2{
+          color:blue;
+          text-transform: uppercase;
+        }
+        .box3 p,ul{
+          font-size: 20px;
+          text-transform:capitalize;
+          text-indent: 20px;
+          text-align: justify;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SKILLS</h1>
+    </div>
+    
+    <div class="box">
+        <div class="box1"><a href="index.html">HOME</a></div>
+        <div class="box1"><a href="about.html">ABOUT</a></div>
+        
+        <div class="box1"><a href="skills.html">SKILLS</a></div>
+        
+     </div>
+     <div class="box2">
+
+        <div class="box3"><h2>PROGRAMMING LANGUAGES</h2>
+            <ul>
+               <li>C</li>
+               <li>JAVA</li>
+               <li>JAVASCRIPT</li>
+               <li>HTML|CSS</li>
+               <li>PHP</li>
+            </ul></div>
+            <div class="box3" ><h2>SKILLS</h2>
+                <ul>
+                   <li>PROBLEM SOLVING</li>
+                   <li>CODING</li>
+                   <li>EXPERIMENTATION</li>
+                   <li>TEAM WORK</li>
+                   <li>LEADERSHIP SKILLS</li>
+                </ul></div>
+                <div class="box3">
+                    <h2>certifications</h2>
+                    <ul>
+                        <li>Award of course completiton in"Artificial Intelligence with Machine <br>
+                         Learning in Java" Conducted by Oracle Academy
+                      </li>
+                       <button type="submit" onclick="display()" >VIEW</button>
+                       <img src=""id="box5"alt="">
+                        <li>HCIA Cloud Computing V4.0 Courses by Huawei</li>
+                        <button type="submit" onclick="display2()">VIEW</button>
+                        <img src=""id="box6"alt="">
+                        <li>Internship on Web Development in Teachnook,Bangalore</li>
+                        <button type="submit" onclick="display3()">VIEW</button>
+                        <img src=""id="box7"alt="">
+                    </ul>
+                    <h2>AREA OF INTREST</h2>
+                     <ul>
+                        <li>Computer Networks</li>
+                        <li>Web Development</li>
+                     </ul>
+                    <div class="box3">
+                        <h2>PROJECTS</h2>
+                        <ul><li>Mini Project on "Make Yourself Fit" a Fitness related website</li></ul>
+                        video of the project
+                    </div>
+                </div>
+                <script>
+                  function display(){
+                  let image1=document.getElementById("box5");
+                  image1.style.width='200px';
+                  image1.style.height='200px';
+                  image1.src="OracleCertificate.jpg";
+                  }
+                 
+                  function display2(){
+                  let image2=document.getElementById("box6");
+                  image2.style.width='200px';
+                  image2.style.height='200px';
+                  image2.src="HuweaiCertificate.jpg";
+                  }
+                  function display3(){
+                  let image3=document.getElementById("box7");
+                  image3.style.width='200px';
+                  image3.style.height='200px';
+                  image3.src="";
+                  }
+                </script>
+        
+
+
+
+    
+</body>
+</html>
